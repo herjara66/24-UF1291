@@ -3,7 +3,7 @@ const express = require("express");
 const path = require("path");
 const connection = require("./config");
 const app = express();
-const PORT = process.env.APP_PORT;
+const PORT = process.env.APP_.env;
 
 // Servir archivos estáticos (HTML, CSS, JS)
 app.use(express.static(path.join(__dirname, "public")));

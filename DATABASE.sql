@@ -8,3 +8,7 @@ CREATE TABLE students (
 );
 
 INSERT INTO students (name, score) VALUES ('Marta', 95), ('Paco', 51);
+
+
+
+
